@@ -1,7 +1,7 @@
 footer{
     width: 100%;
     background: #111;
-    padding: 4rem 0;
+    padding: 4rem 0 0.5rem;
   }
   footer .content{
     display: flex;
@@ -81,13 +81,21 @@ footer{
     background: none;
     color:  teal;
   }
+
+  footer .content .phone i, 
+  footer .content .email i {
+    padding-right: 0.5rem;
+  }
+  footer .content .media-icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+  }
   footer .content .media-icons a{
     font-size: 16px;
     height: 45px;
-    width: 45px;
-    display: inline-block;
-    text-align: center;
-    line-height: 43px;
+    width: 45px;    
     border-radius: 5px;
     border: 2px solid #222222;
     margin: 30px 5px 0 0;
@@ -96,14 +104,27 @@ footer{
   .content .media-icons a:hover{
     border-color: teal;
   }
+  footer .content .media-icons a i {
+    line-height: 37px;
+    width: 100%;
+    text-align: center;
+  }
+  footer .content .media-icons a i.fa-linkedin-in {
+    line-height: 0;
+  }
   footer .bottom{
     width: 100%;
-    padding: 0 40px 5px 0;
     font-size: 0.785rem;
     padding-bottom: 2rem;
+    text-align: center;
+    margin-top: 4rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
   }
-  footer .bottom p a{
-    color: rgba(255,255,255,0.9);
+  footer .bottom p {
+    color: rgba(255,255,255,0.6);
+  }
+  footer .bottom a[href]:visited {
+    color: teal;
   }
   footer .bottom p a:hover {
     color: teal;
