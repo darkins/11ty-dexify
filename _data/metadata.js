@@ -1,11 +1,11 @@
 module.exports = {
-	"title": "Eleventy Base Blog v8",
-	"url": "https://example.com/",
+	"title": "deXify",
+	"url": "https://dexark.ie",
 	"language": "en",
-	"description": "I am writing about my experiences as a naval navel-gazer.",
+	"description": "This is my 11ty and Netlify starter project.",
 	"author": {
-		"name": "Your Name Here",
-		"email": "youremailaddress@example.com",
-		"url": "https://example.com/about-me/"
+		"name": "Declan Arkins",
+		"email": "info@dexark.ie",
+		"url": "https://dexark.ie"
 	}
 }
