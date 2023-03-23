@@ -1,163 +1,164 @@
-footer{
-    width: 100%;
-    background: #111;
-    padding: 4rem 0 0.5rem;
+footer {
+  width: 100%;
+  background: #111;
+  padding: 4rem 0 0.5rem;
+}
+footer .content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+footer .content a[href] {
+  color: rgba(255,255,255,0.4);
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.5em 0;
+  border-bottom: 1px dotted #333;
+  width: 100%;
+  font-size: 0.785rem;
+}
+footer .content a[href]:hover {
+  color: var(--color-primary);
+}
+footer .content a[href]:first-child {
+  padding-top: 0;
+}
+footer .content a[href]:last-child {
+  border-bottom: 0 none;
+}
+footer .content .box {
+  width: 180px;
+  transition: all 0.4s ease;
+}
+footer .content .topic{
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 16px;
+
+}
+footer .content p {
+  text-align: justify;
+}
+footer .content .lower .topic {
+  margin: 24px 0 5px 0;
+}
+footer .content .lower i {
+  padding-right: 16px;
+}
+footer .content .middle {
+  padding-left: 80px;
+}
+footer .content .middle a{
+  line-height: 32px;
+}
+footer .content .right input[type="text"]{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  color: #d9d9d9;
+  background: #000;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 2px solid #222222;
+}
+footer .content .right input[type="submit"] {
+  height: 42px;
+  width: 100%;
+  font-size: 18px;
+  color: #d9d9d9;
+  background: var(--color-primary);
+  outline: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 12px;
+  border: 2px solid var(--color-primary);
+  transition: all 0.3s ease-in-out;
+}
+.content .right input[type="submit"]:hover {
+  background: none;
+  color:  var(--color-primary);
+}
+
+footer .content .phone i, 
+footer .content .email i {
+  padding-right: 0.5rem;
+}
+footer .content .media-icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+footer .content .media-icons a {
+  font-size: 16px;
+  height: 45px;
+  width: 45px;    
+  border-radius: 5px;
+  border: 2px solid #222222;
+  margin: 30px 5px 0 0;
+  transition: all 0.3s ease;
+}
+.content .media-icons a:hover{
+  border-color: var(--color-primary);
+}
+footer .content .media-icons a i {
+  line-height: 37px;
+  width: 100%;
+  text-align: center;
+}
+footer .content .media-icons a i.fa-linkedin-in {
+  line-height: 0;
+}
+footer .bottom{
+  width: 100%;
+  font-size: 0.785rem;
+  padding: 0.5rem 0 2rem;
+  text-align: center;
+  margin-top: 4rem;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+footer .bottom p {
+  color: rgba(255,255,255,0.6);
+}
+footer .bottom a[href], 
+footer .bottom a[href]:visited {
+  color: var(--color-primary);
+}
+footer .bottom p a[href]:hover {
+  color: var(--color-primary);
+}
+footer a[href]{
+  transition: all 0.3s ease;
+}
+footer a[href]:hover{
+  color: var(--color-primary);
+}
+@media (max-width:1100px) {
+  footer .content .middle{
+    padding-left: 50px;
   }
-  footer .content{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2em;
+}
+@media (max-width:950px){
+  footer .content .box{
+    width: 50%;
   }
-  footer .content a {
-    color: rgba(255,255,255,0.4);
-    text-decoration: none;
-    display: inline-block;
-    padding: 0.5em 0;
-    border-bottom: 1px dotted #333;
-    width: 100%;
-    font-size: 0.785rem;
+  .content .right{
+    margin-top: 40px;
   }
-  footer .content a:hover {
-    color: teal;
-  }
-  footer .content a:first-child {
-    padding-top: 0;
-  }
-  footer .content a:last-child {
-    border-bottom: 0 none;
+}
+@media (max-width:560px){
+  footer{
+    position: relative;
   }
   footer .content .box{
-    width: 180px;
-    transition: all 0.4s ease;
-  }
-  footer .content .topic{
-    font-size: 22px;
-    font-weight: 600;
-    color: #fff;
-    margin-bottom: 16px;
-  
-  }
-  footer .content p{
-    text-align: justify;
-  }
-  footer .content .lower .topic{
-    margin: 24px 0 5px 0;
-  }
-  footer .content .lower i{
-    padding-right: 16px;
+    width: 100%;
+    margin-top: 30px;
   }
   footer .content .middle{
-    padding-left: 80px;
+    padding-left: 0;
   }
-  footer .content .middle a{
-    line-height: 32px;
-  }
-  footer .content .right input[type="text"]{
-    height: 45px;
-    width: 100%;
-    outline: none;
-    color: #d9d9d9;
-    background: #000;
-    border-radius: 5px;
-    padding-left: 10px;
-    font-size: 17px;
-    border: 2px solid #222222;
-  }
-  footer .content .right input[type="submit"]{
-    height: 42px;
-    width: 100%;
-    font-size: 18px;
-    color: #d9d9d9;
-    background: teal;
-    outline: none;
-    border-radius: 5px;
-    letter-spacing: 1px;
-    cursor: pointer;
-    margin-top: 12px;
-    border: 2px solid teal;
-    transition: all 0.3s ease-in-out;
-  }
-  .content .right input[type="submit"]:hover{
-    background: none;
-    color:  teal;
-  }
-
-  footer .content .phone i, 
-  footer .content .email i {
-    padding-right: 0.5rem;
-  }
-  footer .content .media-icons {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-
-  }
-  footer .content .media-icons a{
-    font-size: 16px;
-    height: 45px;
-    width: 45px;    
-    border-radius: 5px;
-    border: 2px solid #222222;
-    margin: 30px 5px 0 0;
-    transition: all 0.3s ease;
-  }
-  .content .media-icons a:hover{
-    border-color: teal;
-  }
-  footer .content .media-icons a i {
-    line-height: 37px;
-    width: 100%;
-    text-align: center;
-  }
-  footer .content .media-icons a i.fa-linkedin-in {
-    line-height: 0;
-  }
-  footer .bottom{
-    width: 100%;
-    font-size: 0.785rem;
-    padding-bottom: 2rem;
-    text-align: center;
-    margin-top: 4rem;
-    border-top: 1px solid rgba(255,255,255,0.1);
-  }
-  footer .bottom p {
-    color: rgba(255,255,255,0.6);
-  }
-  footer .bottom a[href]:visited {
-    color: teal;
-  }
-  footer .bottom p a:hover {
-    color: teal;
-  }
-  footer a{
-    transition: all 0.3s ease;
-  }
-  footer a:hover{
-    color: teal;
-  }
-  @media (max-width:1100px) {
-    footer .content .middle{
-      padding-left: 50px;
-    }
-  }
-  @media (max-width:950px){
-    footer .content .box{
-      width: 50%;
-    }
-    .content .right{
-      margin-top: 40px;
-    }
-  }
-  @media (max-width:560px){
-    footer{
-      position: relative;
-    }
-    footer .content .box{
-      width: 100%;
-      margin-top: 30px;
-    }
-    footer .content .middle{
-      padding-left: 0;
-    }
-  }
+}
   

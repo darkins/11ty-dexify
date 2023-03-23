@@ -28,26 +28,25 @@
 		{#- Add the contents of a file to the bundle #}
 		{%- css %}{% include "public/css/index.css" %}{% endcss %}
 		{#- Or add from node_modules #}
-		{# {%- css %}{% include "node_modules/prismjs/themes/prism-okaidia.css" %}{% endcss %} #}
 
 		{#- Render the CSS bundle using Inlined CSS (for the fastest site performance in production) #}
 		<style>{% getBundle "css" %}</style>
 	</head>
 	<body>
-		<a href="#skip" class="visually-hidden">Skip to main content</a>
-
-		<header>
-			{% include "components/header.njk" %}			
-		</header>
-
+		<a href="#skip" class="visually-hidden">Skip to main content</a>		
+		{% include "components/header.njk" %}
 		<main id="skip">
 			{{ content | safe }}
 		</main>
-
-		<footer>
-			{% include "components/footer.njk" %}
-		</footer>
-
+		{% include "components/footer.njk" %}
 		<!-- Current page: {{ page.url | htmlBaseUrl }} -->
+		<!-- capture the JS content as a Nunjucks variable -->
+		{% set js %}
+			{% include "public/js/nav.js" %}
+		{% endset %}
+		<!-- feed it through our jsmin filter to minify -->
+		<script>
+			{{ js | jsmin | safe }}
+		</script>
 	</body>
 </html>

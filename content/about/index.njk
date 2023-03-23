@@ -1,0 +1,47 @@
+---
+layout: layouts/base.njk
+title: Who we are
+eleventyNavigation:
+  key: About
+  order: 2
+---
+<section class="banner" id="who">
+	<div class="container">
+		<h1>{{ title }}</h1>
+	</div>
+</section>
+<section class="page">
+	<div class="container">
+    <div class="david">
+      {% renderFile "./content/about/david.md" %}
+    </div>
+
+    <div class="jane">
+      {% renderFile "./content/about/jane.md" %}
+    </div>
+  </div>
+</section>
+
+<section class="banner" id="ica">
+	<div class="container">
+		<h1>The Irish Citizens' Assembly Project</h1>
+	</div>
+</section>
+
+<section class="page">
+	<div class="container">
+      {% renderFile "./content/about/icap.md" %}
+  </div>
+</section>
+
+<section class="banner" id="collaborators">
+	<div class="container">
+		<h1>Collaborators</h1>
+	</div>
+</section>
+
+<section class="page">
+	<div class="container">
+      {% renderFile "./content/about/collaborators.md" %}
+  </div>
+</section>

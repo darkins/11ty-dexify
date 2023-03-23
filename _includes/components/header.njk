@@ -1,12 +1,47 @@
-<div class="flex container">
-    <a href="/" class="home-link">{{ metadata.title }}</a>
-    {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-    <nav>
-        <h2 class="visually-hidden">Top level navigation menu</h2>
-        <ul class="nav">
-        {%- for entry in collections.all | eleventyNavigation %}
-            <li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-        {%- endfor %}
-        </ul>
-    </nav>
-</div>
+{%- css %}{% include "public/css/header.css" %}{% endcss %}
+<header class="navbar sticky">
+    <div class="container">
+    <a href="#" class="logo">{{ metadata.title }}</a>
+    <div class="menu-btn">
+        <div class="menu-btn__lines"></div>
+    </div>
+    <h2 class="visually-hidden">Top level navigation menu</h2>
+    <ul class="menu-items">
+        <li><a href="/" class="menu-item first-item">Home</a></li>
+        <li class="dropdown">
+            <a href="/about/" class="menu-item first-item expand-btn">About</a>
+            <ul class="dropdown-menu sample">
+                <li><a href="/about#who" class="menu-item">Who we are</a></li>
+                <li><a href="/about#ica" class="menu-item">The Irish Citizens' Assembly Project</a></li>
+                <li><a href="/about#collaborators" class="menu-item">Collaborators</a></li>
+            </ul>
+        </li>
+        <li class="dropdown work">
+            <a href="#" class="menu-item first-item expand-btn">Work</a>
+            <ul class="dropdown-menu sample">
+                <li><a href="#" class="menu-item">Irish Citizens' Assembly (2019-2021)</a></li>
+                <li><a href="#" class="menu-item">Irish Citizens' Assembly (2016-2018)</a></li>
+                <li><a href="#" class="menu-item">Convention on the Constitution</a></li>
+                <li><a href="#" class="menu-item">We the citizens</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="#" class="menu-item first-item expand-btn">Research</a>
+            <ul class="dropdown-menu sample">
+                <li><a href="#" class="menu-item">Journal Articles</a></li>
+                <li><a href="#" class="menu-item">Books & Chapters</a></li>
+                <li><a href="#" class="menu-item">Opinion Prices & Blogs</a></li>
+            </ul>
+        </li>
+        <li class="dropdown media">
+            <a href="#" class="menu-item first-item expand-btn">Media</a>
+            <ul class="dropdown-menu sample">
+                <li><a href="#" class="menu-item">Radio</a></li>
+                <li><a href="#" class="menu-item">Video</a></li>
+            </ul>
+        </li>
+        <li><a href="#" class="menu-item first-item">News</a></li>
+        <li><a href="#" class="menu-item first-item">Contact</a></li>
+    </ul>
+    </div>
+</header>

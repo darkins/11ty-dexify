@@ -1,18 +1,27 @@
 ---
 layout: layouts/base.njk
 ---
-<!-- Delete this message, it will also remove the component CSS from the bundle -->
-{%- css %}{% include "public/css/message-box.css" %}{% endcss %}
-<div class="container">
-	<div class="message-box">
-		<ol>
-			<li>Edit the <code>_data/metadata.js</code> with your blog’s information.</li>
-			<li>(Optional) Edit <code>eleventy.config.js</code> with your <a href="https://www.11ty.dev/docs/config/">configuration preferences</a>.</li>
-			<li>Delete this message from <code>_includes/layouts/home.njk</code>.</li>
-		</ol>
-		<p><em>This is an <a href="https://www.11ty.dev/">Eleventy project</a> created from the <a href="https://github.com/11ty/eleventy-base-blog"><code>eleventy-base-blog</code> repo</a>.</em></p>
+{%- css %}{% include "public/css/home.css" %}{% endcss %}
+<section class="hero">
+	<div class="container">
+		<div>
+			<h1>We the <span>citizens'</span></h1>
+			<h2>Speak up for Ireland</h2>
+			<button class="button btn">
+				<div class="btn-bg"></div>
+				<span>Read More</span>				
+			</button>
+		</div>
+		<div>
+			<img src="img/logo.png" width="100%" height="100%" alt="{{ metadata.title }}" />
+		</div>
 	</div>
-	<!-- Stop deleting -->
-
-	{{ content | safe }}
-</div>
+</section>
+<section>
+	<div class="container">
+		<h1>The Irish Citizens' Assembly Project</h1>
+		<p>
+			This website brings together in one site the Irish experience of using citizens’ assemblies to facilitate widespread constitutional and political reform. The genesis of this project was Ireland’s 2008/2009 financial and economic meltdown and the resulting anger over failings in our political system. We led a group of political scientists who proposed that citizens should be brought into the heart of debates over constitutional and political reforms to improve how our representative system of democracy operates. Our modus operandi was to seek to persuade the newly elected government in 2011 to establish a citizens’ forum – a “deliberative mini-public”. With generous funding from Atlantic Philanthropies we established
+		</p>
+	</div>
+</section>
