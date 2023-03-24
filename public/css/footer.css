@@ -23,15 +23,16 @@ footer .content a[href]:hover {
 footer .content a[href]:first-child {
   padding-top: 0;
 }
-footer .content a[href]:last-child {
+footer .content .box a[href]:last-child {
   border-bottom: 0 none;
 }
+
 footer .content .box {
   width: 180px;
   transition: all 0.4s ease;
 }
-footer .content .topic{
-  font-size: 22px;
+footer .content h2{
+  font-size: 1rem;
   font-weight: 600;
   color: #fff;
   margin-bottom: 16px;
@@ -40,7 +41,7 @@ footer .content .topic{
 footer .content p {
   text-align: justify;
 }
-footer .content .lower .topic {
+footer .content .lower h2 {
   margin: 24px 0 5px 0;
 }
 footer .content .lower i {
@@ -86,30 +87,33 @@ footer .content .phone i,
 footer .content .email i {
   padding-right: 0.5rem;
 }
-footer .content .media-icons {
+footer .content .box .media-icons {
   display: flex;
   align-items: center;
   justify-content: flex-start;
 
 }
-footer .content .media-icons a {
+footer .content .box .media-icons a {
   font-size: 16px;
-  height: 45px;
-  width: 45px;    
+  height: 40px;
+  width: 40px;    
   border-radius: 5px;
-  border: 2px solid #222222;
+  border: 2px solid #222;
   margin: 30px 5px 0 0;
   transition: all 0.3s ease;
 }
-.content .media-icons a:hover{
+footer .content .box .media-icons a:last-child {
+  border-bottom: 2px solid #222;
+}
+footer .content .box .media-icons a:hover{
   border-color: var(--color-primary);
 }
-footer .content .media-icons a i {
+footer .content .box .media-icons a i {
   line-height: 37px;
   width: 100%;
   text-align: center;
 }
-footer .content .media-icons a i.fa-linkedin-in {
+footer .content .box .media-icons a i.fa-linkedin-in {
   line-height: 0;
 }
 footer .bottom{
