@@ -7,7 +7,7 @@
 /* Theme colors */
 :root {
 	--color-primary: #14B1BB;
-	--color-secondary: #7CBCE0;
+	--color-secondary: #00A6E6;
 	--color-tertiary: #005E7C;
 	--color-gray-20: #e0e0e0;
 	--color-gray-50: #C0C0C0;
@@ -126,6 +126,19 @@ html {
 	overflow-y: scroll;
 }
 
+.page a {
+	text-decoration: none;
+    color: var(--color-secondary);
+    padding-bottom: 0.15rem;
+    border-bottom: 1px solid black;
+	transition: all ease-in-out 200ms;
+}
+
+.page a:hover {
+	color: var(--color-tertiary);
+	border-bottom: 0 none;
+}
+
 .flex {
 	display: flex;
 	gap: 1em .5em;
@@ -134,7 +147,7 @@ html {
 }
 
 .container {
-	max-width: 120em;
+	max-width: 90em;
 	margin: 0 auto;
 	padding: 0 2rem;
 }
@@ -205,6 +218,7 @@ section p {
 
 section.banner {
 	text-align: center;
+	background: linear-gradient(45deg, #27a9b0, #673ab7);
 	background-color: var(--color-secondary);
 }
 
@@ -237,17 +251,6 @@ p {
 
 li {
 	line-height: 1.5;
-}
-
-a[href] {
-	color: var(--text-color-link);
-}
-a[href]:visited {
-	color: var(--text-color-link-visited);
-}
-a[href]:hover,
-a[href]:active {
-	color: var(--text-color-link-active);
 }
 
 main {
@@ -343,28 +346,4 @@ table th {
 }
 .post-metadata time {
 	margin-right: 1em;
-}
-
-/* Direct Links / Markdown Headers */
-.header-anchor {
-	text-decoration: none;
-	font-style: normal;
-	font-size: 1em;
-	margin-left: .1em;
-}
-a[href].header-anchor,
-a[href].header-anchor:visited {
-	color: transparent;
-}
-a[href].header-anchor:focus,
-a[href].header-anchor:hover {
-	text-decoration: underline;
-}
-a[href].header-anchor:focus,
-:hover > a[href].header-anchor {
-	color: #aaa;
-}
-
-h2 + .header-anchor {
-	font-size: 1.5em;
 }

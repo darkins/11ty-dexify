@@ -1,5 +1,5 @@
 module.exports = {
-	"title": "deXify",
+	"title": "Dexify",
 	"url": "https://dexark.ie",
 	"language": "en",
 	"description": "This is my 11ty and Netlify starter project.",
