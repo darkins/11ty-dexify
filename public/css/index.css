@@ -196,13 +196,14 @@ section {
 	padding: 4rem 0;	
 }
 
-section h1.after {
-	margin-bottom: 0.5rem;
+.page h1 {
+	text-transform: uppercase;
+	margin-bottom: 1rem;
 	padding-bottom: 0.5rem;
 	position: relative;
 }
 
-section h1.after::after {
+.page h1::after {
 	content: "";
 	position: absolute;
 	bottom: 0;
