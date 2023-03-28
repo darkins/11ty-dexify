@@ -1,0 +1,41 @@
+---
+layout: layouts/base.njk
+title: Research
+eleventyNavigation:
+  key: Research
+  order: 3
+---
+<section class="banner" id="journal">
+	<div class="container">
+		<h1>Journal Articles</h1>
+	</div>
+</section>
+<section class="page">
+	<div class="container">
+      {% renderFile "./content/research/journal-articles.md" %}
+  </div>
+</section>
+
+<section class="banner" id="books">
+	<div class="container">
+		<h1>Books & Chapters</h1>
+	</div>
+</section>
+
+<section class="page">
+	<div class="container">
+      {% renderFile "./content/research/books-chapters.md" %}
+  </div>
+</section>
+
+<section class="banner" id="opinion">
+	<div class="container">
+		<h1>Opinion Pieces & Blogs</h1>
+	</div>
+</section>
+
+<section class="page">
+	<div class="container">
+      {% renderFile "./content/research/opinion-blog.md" %}
+  </div>
+</section>

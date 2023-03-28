@@ -1,0 +1,29 @@
+---
+layout: layouts/base.njk
+title: Media
+eleventyNavigation:
+  key: Media
+  order: 4
+---
+<section class="banner" id="radio">
+	<div class="container">
+		<h1>Radio</h1>
+	</div>
+</section>
+<section class="page">
+	<div class="container">
+      {% renderFile "./content/media/radio.md" %}
+  </div>
+</section>
+
+<section class="banner" id="video">
+	<div class="container">
+		<h1>Video</h1>
+	</div>
+</section>
+
+<section class="page">
+	<div class="container">
+      {% renderFile "./content/media/video.md" %}
+  </div>
+</section>
