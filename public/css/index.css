@@ -8,7 +8,7 @@
 :root {
 	--color-primary: #14B1BB;
 	--color-secondary: #00A6E6;
-	--color-tertiary: #005E7C;
+	--color-tertiary: #673ab7;
 	--color-gray-20: #e0e0e0;
 	--color-gray-50: #C0C0C0;
 	--color-gray-90: #333;
@@ -65,6 +65,11 @@ dd {
 ul[role='list'],
 ol[role='list'] {
   list-style: none;
+}
+
+/* Scroll padding top */
+html {
+	scroll-padding-top: 4rem;
 }
 
 /* Set core root defaults */
@@ -128,14 +133,14 @@ html {
 
 .page a {
 	text-decoration: none;
-    color: var(--color-secondary);
+    color: var(--color-tertiary);
     padding-bottom: 0.15rem;
     border-bottom: 1px solid black;
 	transition: all ease-in-out 200ms;
 }
 
 .page a:hover {
-	color: var(--color-tertiary);
+	color: var(--color-primary);
 	border-bottom: 0 none;
 }
 
@@ -158,6 +163,7 @@ html {
 
 .page h2 {
 	text-transform: uppercase;
+	margin: 2rem 0 1rem;
 }
 
 .page h3 {
@@ -198,7 +204,7 @@ section {
 
 .page h1 {
 	text-transform: uppercase;
-	margin-bottom: 1rem;
+	margin-bottom: 2.5rem;
 	padding-bottom: 0.5rem;
 	position: relative;
 }
@@ -218,14 +224,21 @@ section p {
 }
 
 section.banner {
-	text-align: center;
 	background: linear-gradient(45deg, #27a9b0, #673ab7);
 	background-color: var(--color-secondary);
+	
+}
+
+section.banner .container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 section.banner h1 {
 	color: white;
 	text-transform: uppercase;
+	padding: 0;
 }
 
 img {

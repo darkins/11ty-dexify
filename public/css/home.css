@@ -68,7 +68,7 @@ section.hero h1::after {
 .btn {
 	pointer-events: auto;
 	cursor: pointer;
-	/*background-color: #27a9b0;*/
+	text-decoration: none;
 	background-color: transparent;
 	border: 3px solid plum;
 	padding: 1rem 2rem;
