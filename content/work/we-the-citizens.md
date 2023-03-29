@@ -1,3 +1,8 @@
+---
+title: We the citizens
+section: content
+permalink: ./content/work/we-the-citizens.md
+---
 # We the citizens
 
 We the Citizens was an academic project designed to bring citizens into the heart of debates about in democracy in Ireland. Set up in the midst of Ireland’s economic crisis, it was the initiative of a group of academics: David M. Farrell, Jane Suiter, Eoin O’Malley and Elaine Byrne. It was funded by Atlantic Philanthropies. The project was managed by Caroline Erskine and a small team located in a Dublin city centre office.  The chairperson was Fiach MacConghail, the director of the Abbey Theatre.

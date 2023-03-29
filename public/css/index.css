@@ -146,6 +146,11 @@ html {
 	border-bottom: 0 none;
 }
 
+.page .container hr, 
+.page .container h2:nth-of-type(1) {
+	display: none;
+}
+
 .flex {
 	display: flex;
 	gap: 1em .5em;

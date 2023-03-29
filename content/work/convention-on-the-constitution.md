@@ -1,3 +1,8 @@
+---
+title: Convention on the constitution
+section: content
+permalink: ./content/work/convention-on-the-constitution.md
+---
 # Convention on the constitution
 
 In late 2012 the Irish government established the Convention on the Constitution, which followed many of the procedures spearheaded by We The Citizens — with randomly selected citizen members at the core and following carefully facilitated and informed small group discussions. It met for 14 months between December 2012 and February 2014.
