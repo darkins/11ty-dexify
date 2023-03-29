@@ -15,6 +15,8 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy({
 		"./public/": "/"
 	});
+	// Netlify admin
+	eleventyConfig.addPassthroughCopy("admin");
 
 	// RenderPlugin
 	eleventyConfig.addPlugin(EleventyRenderPlugin);
