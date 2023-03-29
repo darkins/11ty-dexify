@@ -1,3 +1,8 @@
+---
+title: Our News
+section: content
+permalink: ./content/home/index.html
+---
 # Our News
 
 Bring in post and link to full post
