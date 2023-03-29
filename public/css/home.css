@@ -21,6 +21,11 @@
 	border-radius: 0.2rem;
 }
 
+.home section h2, 
+.home section hr {
+	display: none;
+}
+
 /* Hero Section */
 .hero {
 	background: linear-gradient(-45deg, #27a9b0, #673ab7);
@@ -51,16 +56,11 @@
 	max-width: 50%;
 }
 
-.hero h1, 
-.hero h2 {
-    font-size: 3rem;
-    color: rgba(255,255,255,0.7);
-    font-weight: 300;
-}
-
-.hero h2 {
-    font-size: 1.1rem;
-	padding-top: 1rem;
+.hero .container h1 {
+    font-size: 1.2rem;
+    color: rgba(255,255,255,0.5);
+    font-weight: 300;	
+	padding-top: 1.5rem;
 }
 
 .hero h1 span {
