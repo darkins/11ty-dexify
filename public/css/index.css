@@ -373,12 +373,12 @@ table th {
 /* Overrides */
 .eleventy-plugin-youtube-embed {
 	margin-bottom: 1rem;
-	padding-top: 0 !important;
 }
 @media screen  and (min-width: 800px) {
 	.eleventy-plugin-youtube-embed, 
 	.eleventy-plugin-youtube-embed iframe {
 		width: 600px !important;
 		height: 400px !important;
+		padding-top: 0 !important;
 	}
 }
