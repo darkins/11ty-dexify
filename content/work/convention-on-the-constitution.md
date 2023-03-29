@@ -17,26 +17,32 @@ The public submissions on these topics are available here: Link to public submis
 ## Video Links
 In this brief video some of those involved in the Convention, as members, organisers or observers, reflect on its legacy.
 
-Broken Video - Video Unavailable
+***Broken Video - Video Unavailable***
 
 **Marriage Equality Video**\
-Panel discussion on marriage equality\
-Embed this: https://www.youtube.com/watch?v=M41KRyIx8I4
+Panel discussion on marriage equality
 
-Presentations by advocates of a Yes vote\
-Embed this: https://www.youtube.com/watch?v=LRcu-Qr0Xxk
+https://www.youtube.com/watch?v=M41KRyIx8I4
 
-Presentations by advocates of a No vote\
-Embed this: https://www.youtube.com/watch?v=Dn05xcgsLXk
+Presentations by advocates of a Yes vote
 
-Presentations by experts\
-Embed this: https://www.youtube.com/watch?v=gTA21xT3DAE
+https://www.youtube.com/watch?v=LRcu-Qr0Xxk
+
+Presentations by advocates of a No vote
+
+https://www.youtube.com/watch?v=Dn05xcgsLXk
+
+Presentations by experts
+
+https://www.youtube.com/watch?v=gTA21xT3DAE
 
 **Blasphemy Video**\
-Final Q&A on blasphemy\
-Embed this: https://www.youtube.com/watch?v=SOCnpBtFAw8
+Final Q&A on blasphemy
 
-Agreeing a Ballot Paper\
-Embed this: https://www.youtube.com/watch?v=DZxjzQ7IioU
+https://www.youtube.com/watch?v=SOCnpBtFAw8
+
+Agreeing a Ballot Paper
+
+https://www.youtube.com/watch?v=DZxjzQ7IioU
 
 

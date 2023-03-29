@@ -31,13 +31,20 @@ footer .content .box {
   width: 180px;
   transition: all 0.4s ease;
 }
-footer .content h2{
+footer .content h2 {
   font-size: 1rem;
   font-weight: 600;
-  color: #fff;
-  margin-bottom: 16px;
-
+  text-transform: uppercase;
 }
+
+footer .content h2 a[href] {  
+  color: var(--color-gray-50);
+}
+
+footer .content h2 a[href]:hover {  
+  color: #fff;
+}
+
 footer .content p {
   text-align: justify;
 }
