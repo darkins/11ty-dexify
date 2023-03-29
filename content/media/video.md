@@ -2,7 +2,7 @@
 
 UCD Geary Institute online workshop series on Covid19 Crisis Response: Perspectives from Social Science, panel on ‘Citizen Engagement’
 
-Embed Video: https://www.youtube.com/watch?v=6DzOlNc7bVQ
+https://www.youtube.com/watch?v=6DzOlNc7bVQ
 
 McCourtney Institute for Democracy podcast: ‘From political crisis to profound change’
 
@@ -12,7 +12,7 @@ UCD conference on Trust in a Changing World, ‘Ireland’s experiments in delib
 
 <a href="https://peritia-trust.eu/videos-of-the-symposium-trust-in-a-changing-world-now-available/" target="_blank">https://peritia-trust.eu/videos-of-the-symposium-trust-in-a-changing-world-now-available/</a>
 
-Embed Video: https://www.youtube.com/watch?v=PGgCwGhttls
+https://www.youtube.com/watch?v=PGgCwGhttls
 
 ***Broken Video 1 - Video Unavailable***
 
@@ -20,10 +20,10 @@ Embed Video: https://www.youtube.com/watch?v=PGgCwGhttls
 
 ***Broken Video 3 - Video Unavailable***
 
-Embed Video: https://www.youtube.com/watch?v=MjpuDk9_BWI
+https://www.youtube.com/watch?v=MjpuDk9_BWI
 
 ***Broken Video 4 - Video Unavailable***
 
 ***Broken Video 5 - Video Unavailable***
 
-Embed Video: https://www.youtube.com/watch?v=HzQBXQeuLjk
+https://www.youtube.com/watch?v=HzQBXQeuLjk

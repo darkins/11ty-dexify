@@ -7,7 +7,7 @@ layout: layouts/base.njk
 		<div>
 			<img src="img/wtc-logo.svg" width="600" height="144" alt="We the citizens" />
 			<h2>
-				This website brings together in one site the Irish experience of using citizens’ assemblies to facilitate widespread constitutional and political reform. 
+				{% renderFile "./content/home/slogan.md" %}
 			</h2>
 			<a class="btn" href="/work#wtc">
 				<span>View Our Projects</span>				
@@ -18,11 +18,25 @@ layout: layouts/base.njk
 		</div>
 	</div>
 </section>
+
 <section>
 	<div class="container">
-		<h1>The Irish Citizens' Assembly Project</h1>
-		<p>
-			This website brings together in one site the Irish experience of using citizens’ assemblies to facilitate widespread constitutional and political reform. The genesis of this project was Ireland’s 2008/2009 financial and economic meltdown and the resulting anger over failings in our political system. We led a group of political scientists who proposed that citizens should be brought into the heart of debates over constitutional and political reforms to improve how our representative system of democracy operates. Our modus operandi was to seek to persuade the newly elected government in 2011 to establish a citizens’ forum – a “deliberative mini-public”. With generous funding from Atlantic Philanthropies we established
-		</p>
+		{% renderFile "./content/home/icap.md" %}
+	</div>
+</section>
+
+<section>
+	<div class="container">
+		{% renderFile "./content/home/who-we-are.md" %}
+	</div>
+</section>
+
+<section>
+	<div class="container flex-wrap">
+		<div>{% renderFile "./content/home/our-work.md" %}</div>
+		<div>
+			<h1>Our News</h1>
+			<p>Show part of the post here with a link to the <a href="/news/">full article</a></p>
+		</div>
 	</div>
 </section>

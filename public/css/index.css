@@ -361,3 +361,23 @@ table th {
 .post-metadata time {
 	margin-right: 1em;
 }
+
+/* Helper classes */
+.flex-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+}
+
+/* Overrides */
+.eleventy-plugin-youtube-embed {
+	width: 600px !important;
+	height: 400px !important;
+	margin-bottom: 1rem;
+	padding-top: 0 !important;
+}
+ 
+.eleventy-plugin-youtube-embed iframe {
+	width: 600px!important;
+	height: 400px !important;
+}
