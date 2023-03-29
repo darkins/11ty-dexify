@@ -1,9 +1,6 @@
 ---
-layout: layouts/page.njk
-title: Who we are
-eleventyNavigation:
-  key: Who
-  order: 3
+layout: base
+title: David
 ---
 ## David Farrell
 
