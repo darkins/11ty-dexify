@@ -370,16 +370,14 @@ table th {
 }
 
 /* Overrides */
+@media screen  and (min-width: 800px) {
+	.eleventy-plugin-youtube-embed, 
+	.eleventy-plugin-youtube-embed iframe {
+		width: 600px !important;
+		height: 400px !important;
+	}
+}
 .eleventy-plugin-youtube-embed {
-	min-width: 400px !important;
-	min-height: 250px !important;
-	max-width: 100% !important;
-	max-height: 100% !important;
 	margin-bottom: 1rem;
 	padding-top: 0 !important;
-}
- 
-.eleventy-plugin-youtube-embed iframe {
-	width: 600px!important;
-	height: 400px !important;
 }
