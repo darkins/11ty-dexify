@@ -1,6 +1,7 @@
 ---
 title: David
 section: content
+permalink: ./content/about/david.md
 ---
 ## David Farrell
 

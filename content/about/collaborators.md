@@ -1,7 +1,4 @@
----
-title: Collaborators
-section: content
----
+
 # Collaborators
 
 Across the three projects we have worked with a number of different academic collaborators. To date, these include the following:

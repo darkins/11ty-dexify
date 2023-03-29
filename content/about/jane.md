@@ -1,6 +1,7 @@
 ---
 title: Jane
 section: content
+permalink: ./content/about/jane.md
 ---
 ## Jane Suiter
 
