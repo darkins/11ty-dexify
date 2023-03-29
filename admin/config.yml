@@ -1,0 +1,76 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: "_site/img"
+public_folder: "/img"
+collections:
+
+  # Home
+  - label: "Home"
+    name: "home"
+    folder: "home"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Meta Description", name: "metaDescription", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # About
+  - label: "About"
+    name: "about"
+    folder: "about"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Meta Description", name: "metaDescription", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  
+  # Work
+  - label: "Work"
+    name: "work"
+    folder: "work"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Meta Description", name: "metaDescription", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  
+  # Research
+  - label: "Research"
+    name: "research"
+    folder: "research"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Meta Description", name: "metaDescription", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # Media
+  - label: "Media"
+    name: "media"
+    folder: "media"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Meta Description", name: "metaDescription", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # News
+  - label: "News"
+    name: "news"
+    folder: "news"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Meta Description", name: "metaDescription", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # Contact
+  - label: "Contact"
+    name: "contact"
+    folder: "contact"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Meta Description", name: "metaDescription", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }

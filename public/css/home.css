@@ -1,3 +1,26 @@
+
+
+.home section.first {
+	padding-top: 4rem;
+	background-color: #7CBCE0;
+}
+
+.home section.last {
+	padding-bottom: 8rem;
+	background-color: #f4f8f9;
+}
+
+.home section .page {
+	padding: 0;
+}
+
+.home section .page a.btn {
+	padding: 0.5rem 1rem;
+	border-bottom: 0;
+	color: white;
+	border-radius: 0.2rem;
+}
+
 /* Hero Section */
 .hero {
 	background: linear-gradient(-45deg, #27a9b0, #673ab7);
@@ -64,8 +87,8 @@ section.hero h1::after {
     display: none;
 }
 
-/* Buttons */
-.btn {
+/* Hero Buttons */
+.hero .btn {
 	pointer-events: auto;
 	cursor: pointer;
 	text-decoration: none;
@@ -85,13 +108,13 @@ section.hero h1::after {
 	transition: all ease-in-out 200ms;
 }
 
-.btn:hover {
+.hero .btn:hover {
 	background-color: #000000;
 	border-color: #000000;
 }
 
-.btn::before,
-.btn::after {
+.hero .btn::before,
+.hero .btn::after {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -99,14 +122,14 @@ section.hero h1::after {
 	height: 100%;
 }
 
-.btn.primary {
+.hero .btn.primary {
 	border-color: var(--color-secondary);
 	background-color: var(--color-secondary);
 	margin: 2rem 0;
 	font-size: 0.795rem;
 }
 
-.btn.primary:hover {
+.hero .btn.primary:hover {
 	border-color: var(--color-dark);
 	background-color: var(--color-dark);
 }
