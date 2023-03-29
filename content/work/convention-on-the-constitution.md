@@ -8,11 +8,11 @@ The Convention was tasked by the government with considering eight topics: the t
 
 In total the Convention made 43 recommendations, 18 of which would require constitutional amendment by a referendum.  To date, there have been three referendums, two of which have been successful (on marriage equality in 2015 and blasphemy in 2018), and one unsuccessful (on reducing the age requirement of presidential candidates).  There has also been extensive parliamentary reforms. Further reforms are promised or still being considered. The current state of play is summarised in the following table.
 
-#### Assessing the ICC in terms of outcomes (as of January 2019)
+***Assessing the ICC in terms of outcomes (as of January 2019)***
 
 Table goes here!
 
-The public submissions on these topics are available here: Link to public submissions
+The public submissions on these topics are available <a href="https://www.constitutionalconvention.ie/Submissions.aspx" target="_blank">here</a>.
 
 ## Video Links
 In this brief video some of those involved in the Convention, as members, organisers or observers, reflect on its legacy.
