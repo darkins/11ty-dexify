@@ -1,3 +1,8 @@
+---
+title: Books and Chapters
+section: content
+permalink: ./content/research/books-chapters.md
+---
 # Books
 
 Farrell, D., Suiter, J., (2019), Reimagining Democracy: Lessons in Deliberative Democracy from the Irish Front Line. (Ithaca: Cornell University Press.

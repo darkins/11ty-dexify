@@ -1,3 +1,8 @@
+---
+title: Opinion Pieces and Blog
+section: content
+permalink: ./content/research/opinion-blog.md
+---
 # Opinion Pieces & Blogs
 Suiter, J., 2018. <a href="https://blogs.lse.ac.uk/politicsandpolicy/irish-referendums-deliberative-assemblies/" target="_blank">Lessons from Ireland’s recent referendums: how deliberation helps inform voters</a> LSE British Politics and Policy 9  September 2018
 

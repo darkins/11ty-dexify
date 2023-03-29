@@ -1,3 +1,8 @@
+---
+title: Journal Articles
+section: content
+permalink: ./content/research/journal-articles.md
+---
 # Journal Articles
 
 Elkink, J., Farrell, D., Marien, S., Reidy, T., and Suiter, J. 2020. The death of conservative Ireland? The 2018 abortion referendum, Electoral Studies. (online first, 2020).
