@@ -1,6 +1,6 @@
 ---
-layout: base
 title: The Irish Citizens' Assembly
+section: content
 ---
 # THE IRISH CITIZENS' ASSEMBLY PROJECT
  

@@ -1,6 +1,6 @@
 ---
-layout: base
 title: Jane
+section: content
 ---
 ## Jane Suiter
 

@@ -1,6 +1,6 @@
 ---
-layout: base
 title: Collaborators
+section: content
 ---
 # Collaborators
 

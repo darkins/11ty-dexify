@@ -1,6 +1,6 @@
 ---
-layout: base
 title: David
+section: content
 ---
 ## David Farrell
 
