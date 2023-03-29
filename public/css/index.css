@@ -371,8 +371,10 @@ table th {
 
 /* Overrides */
 .eleventy-plugin-youtube-embed {
-	width: 600px !important;
-	height: 400px !important;
+	min-width: 400px !important;
+	min-height: 250px !important;
+	max-width: 100% !important;
+	max-height: 100% !important;
 	margin-bottom: 1rem;
 	padding-top: 0 !important;
 }
