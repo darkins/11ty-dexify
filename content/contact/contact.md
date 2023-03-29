@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: Contact Us
 section: content
 permalink: ./content/contact/index.html
 ---

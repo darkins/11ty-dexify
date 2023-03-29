@@ -1,7 +1,7 @@
 ---
-title: News
+title: Press Release
 section: content
-permalink: ./content/news/index.html
+permalink: ./content/news/brown-democracy-medal.md
 ---
 # The Irish Citizens' Assembly Project to receive 2019 Brown Democracy Medal
 

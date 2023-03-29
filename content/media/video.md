@@ -1,3 +1,8 @@
+---
+title: Video
+section: content
+permalink: ./content/media/video.md
+---
 # Video
 
 UCD Geary Institute online workshop series on Covid19 Crisis Response: Perspectives from Social Science, panel on ‘Citizen Engagement’
