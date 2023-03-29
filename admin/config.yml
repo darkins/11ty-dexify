@@ -14,6 +14,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Meta Description", name: "metaDescription", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Permalink", name: "permalink", widget: "string" }
 
   # About
   - label: "About"
@@ -24,6 +25,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Meta Description", name: "metaDescription", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Permalink", name: "permalink", widget: "string" }
   
   # Work
   - label: "Work"
@@ -34,6 +36,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Meta Description", name: "metaDescription", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Permalink", name: "permalink", widget: "string" }
   
   # Research
   - label: "Research"
@@ -44,6 +47,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Meta Description", name: "metaDescription", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Permalink", name: "permalink", widget: "string" }
 
   # Media
   - label: "Media"
@@ -54,6 +58,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Meta Description", name: "metaDescription", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Permalink", name: "permalink", widget: "string" }
 
   # News
   - label: "News"
@@ -64,6 +69,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Meta Description", name: "metaDescription", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Permalink", name: "permalink", widget: "string" }
 
   # Contact
   - label: "Contact"
@@ -73,4 +79,5 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Meta Description", name: "metaDescription", widget: "text" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Body", name: "body", widget: "markdown" }      
+      - { label: "Permalink", name: "permalink", widget: "string" }
