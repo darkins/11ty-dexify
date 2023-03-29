@@ -11,10 +11,7 @@ collections:
     folder: "content/home"
     create: true
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Meta Description", name: "metaDescription", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Permalink", name: "permalink", widget: "string" }
 
   # About
   - label: "About"
@@ -22,10 +19,7 @@ collections:
     folder: "content/about"
     create: true
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Meta Description", name: "metaDescription", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Permalink", name: "permalink", widget: "string" }
   
   # Work
   - label: "Work"
@@ -33,10 +27,7 @@ collections:
     folder: "content/work"
     create: true
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Meta Description", name: "metaDescription", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Permalink", name: "permalink", widget: "string" }
   
   # Research
   - label: "Research"
@@ -44,10 +35,7 @@ collections:
     folder: "content/research"
     create: true
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Meta Description", name: "metaDescription", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Permalink", name: "permalink", widget: "string" }
 
   # Media
   - label: "Media"
@@ -55,10 +43,7 @@ collections:
     folder: "content/media"
     create: true
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Meta Description", name: "metaDescription", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Permalink", name: "permalink", widget: "string" }
 
   # News
   - label: "News"
@@ -66,10 +51,7 @@ collections:
     folder: "content/news"
     create: true
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Meta Description", name: "metaDescription", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Permalink", name: "permalink", widget: "string" }
 
   # Contact
   - label: "Contact"
@@ -77,7 +59,4 @@ collections:
     folder: "content/contact"
     create: true
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Meta Description", name: "metaDescription", widget: "text" }
-      - { label: "Body", name: "body", widget: "markdown" }      
-      - { label: "Permalink", name: "permalink", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }

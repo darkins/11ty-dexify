@@ -1,3 +1,8 @@
+---
+title: News
+section: content
+permalink: ./content/news/index.html
+---
 # The Irish Citizens' Assembly Project to receive 2019 Brown Democracy Medal
 
 Banner pic goes here!
