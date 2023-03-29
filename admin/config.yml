@@ -8,7 +8,7 @@ collections:
   # Home
   - label: "Home"
     name: "home"
-    folder: "home"
+    folder: "content/home"
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
@@ -18,7 +18,7 @@ collections:
   # About
   - label: "About"
     name: "about"
-    folder: "about"
+    folder: "content/about"
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
@@ -28,7 +28,7 @@ collections:
   # Work
   - label: "Work"
     name: "work"
-    folder: "work"
+    folder: "content/work"
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
@@ -38,7 +38,7 @@ collections:
   # Research
   - label: "Research"
     name: "research"
-    folder: "research"
+    folder: "content/research"
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
@@ -48,7 +48,7 @@ collections:
   # Media
   - label: "Media"
     name: "media"
-    folder: "media"
+    folder: "content/media"
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
@@ -58,7 +58,7 @@ collections:
   # News
   - label: "News"
     name: "news"
-    folder: "news"
+    folder: "content/news"
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
@@ -68,7 +68,7 @@ collections:
   # Contact
   - label: "Contact"
     name: "contact"
-    folder: "contact"
+    folder: "content/contact"
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
