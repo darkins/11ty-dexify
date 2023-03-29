@@ -1,7 +1,7 @@
 ---
 title: ICAP
 section: content
-permalink: ./content/home/index.html
+permalink: ./content/home/icap.md
 ---
 # The Irish Citizens' Assembly Project
 

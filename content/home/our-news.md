@@ -1,7 +1,7 @@
 ---
 title: Our News
 section: content
-permalink: ./content/home/index.html
+permalink: ./content/home/our-news.md
 ---
 # Our News
 

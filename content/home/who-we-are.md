@@ -1,7 +1,7 @@
 ---
 title: Who we are
 section: content
-permalink: ./content/home/index.html
+permalink: ./content/home/who-we-are.md
 ---
 # Who we are
 

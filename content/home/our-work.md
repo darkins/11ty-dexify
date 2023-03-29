@@ -1,7 +1,7 @@
 ---
 title: Our Work
 section: content
-permalink: ./content/home/index.html
+permalink: ./content/home/our-work.md
 ---
 # Our Work
 
