@@ -1,4 +1,8 @@
-
+---
+title: Collaborators
+section: content
+permalink: ./content/about/collaborators.md
+---
 # Collaborators
 
 Across the three projects we have worked with a number of different academic collaborators. To date, these include the following:
