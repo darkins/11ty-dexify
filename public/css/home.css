@@ -131,3 +131,10 @@ section.hero h1::after {
 	border-color: var(--color-dark);
 	background-color: var(--color-dark);
 }
+
+@media screen and (max-width: 35em) {
+	.hero {
+		height: auto;
+		min-height: auto;
+	}
+}
