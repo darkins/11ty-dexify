@@ -47,11 +47,11 @@
 }
 
 .hero .container div:nth-of-type(1) {
-	max-width: 50%;
+	max-width: 100%;
 }
 
 .hero .container div:nth-of-type(2) {
-	max-width: 50%;
+	display: none;
 }
 
 .hero .container h1 {
@@ -136,5 +136,16 @@ section.hero h1::after {
 	.hero {
 		height: auto;
 		min-height: auto;
+	}
+}
+
+@media screen and (min-width: 60em) {
+	.hero .container div:nth-of-type(1) {
+		max-width: 50%;
+	}
+	
+	.hero .container div:nth-of-type(2) {
+		max-width: 50%;
+		display: block;
 	}
 }
