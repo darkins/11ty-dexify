@@ -6,27 +6,28 @@
     padding: 0.5rem 0.7rem;
     border-radius: 0.2rem;
     background-color: transparent;
-    border: 1px solid var(--color-bg2);
+    border: 1px solid var(--color-bg1);
     color: white;
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-    border: 1px solid var(--color-bg1);
+    border: 1px solid var(--color-secondary);
 }
 
 .contact-form .btn {
-    color: white;
     padding: 1rem 1.5rem;
-    background-color: var(--color-bg1);
-    border: 3px solid var(--color-bg1);
+    background-color: var(--color-primary);
+    border: 0 none;
     margin-top: 0;
     text-align: center;
+    color: white;
+    transition: all ease-in-out 200ms;
 }
 
 .contact-form .btn:hover {
-    background-color: var(--color-primary);
-    border: 3px solid var(--color-primary);
+    background-color: var(--color-dark);
+    border: 0 none;
     color: white;
 }
 
@@ -39,8 +40,8 @@
         color: var(--color-dark);
         width: 80%;
     }
-    .contact-form .btn {    
-        color: var(--color-dark);    
+    .contact-form .btn {  
+        background-color: var(--color-primary);   
         display: block;
         width: 230px;
     }
