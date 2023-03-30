@@ -31,6 +31,11 @@ footer .content .box {
   width: 180px;
   transition: all 0.4s ease;
 }
+footer .content .box:nth-of-type(1), 
+footer .content .box:nth-of-type(2), 
+footer .content .box:nth-of-type(3) {
+  width: 220px;
+}
 footer .content .box:nth-of-type(4) {
   width: 100px;
 }
