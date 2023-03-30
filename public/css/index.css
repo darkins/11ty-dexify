@@ -37,6 +37,7 @@
 	--syntax-tab-size: 2;
 
 	--color-bg1: #7CBCE0;
+	--color-bg2: #f4f8f9;
 }
 
 @media (prefers-color-scheme: dark) {
