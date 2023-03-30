@@ -8,13 +8,11 @@
 }
 
 .contact-form .btn {
-    color: var(--color-dark);
+    color: white;
     padding: 1rem 1.5rem;
     background-color: transparent;
     border: 3px solid var(--color-primary);
     margin-top: 0;
-    display: block;
-    width: 230px;
     text-align: center;
 }
 
@@ -29,5 +27,10 @@
     .contact-form textarea,
     .contact-form select {
         width: 80%;
+    }
+    .contact-form .btn {    
+        color: var(--color-dark);    
+        display: block;
+        width: 230px;
     }
 }
