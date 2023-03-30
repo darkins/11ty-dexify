@@ -155,7 +155,7 @@ html {
 	text-decoration: none;
     color: var(--color-secondary);
     padding-bottom: 0.15rem;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--color-primary);
 	transition: all ease-in-out 200ms;
 	word-break: break-word;
 }
@@ -435,7 +435,7 @@ table th {
 .eleventy-plugin-youtube-embed {
 	margin-bottom: 1rem;
 }
-@media screen  and (min-width: 800px) {
+@media screen  and (min-width: 50em) {
 	.eleventy-plugin-youtube-embed, 
 	.eleventy-plugin-youtube-embed iframe {
 		width: 600px !important;
