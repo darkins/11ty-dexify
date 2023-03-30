@@ -4,13 +4,13 @@
 .contact-form select {
 	margin-bottom: var(--fs-base);
     width: 100%;
-    padding: 0.2rem 0.5rem;
+    padding: 0.5rem 0.7rem;
 }
 
 .contact-form .btn {
     color: white;
-    padding: 1rem;
-    background-color: var(--color-dark);
+    padding: 1rem 1.5rem;
+    background-color: var(--color-primary);
     margin-top: 0;
 }
 
