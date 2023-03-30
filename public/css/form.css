@@ -11,10 +11,12 @@
     color: white;
     padding: 1rem 1.5rem;
     background-color: var(--color-primary);
+    border-color: var(--color-primary);
     margin-top: 0;
 }
 
 .contact-form .btn:hover {
     background-color: var(--color-secondary);
+    border-color: var(--color-secondary);
     color: white;
 }
