@@ -149,10 +149,14 @@ footer .bottom p {
 footer .bottom a[href], 
 footer .bottom a[href]:visited {
   color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  padding-bottom: 0.2rem;
+  border-bottom: 1px solid white;
 }
 footer .bottom p a[href]:hover, 
 footer a[href]:hover {
   color: white;
+  border-bottom: 0 none;
 }
 footer a[href]{
   transition: all 0.3s ease;
@@ -191,7 +195,7 @@ footer a[href]{
 
 @media screen and (min-width: 60em) {
   footer {
-    background-image: none;
+    background: none;
     background-color: var(--color-dark);
   }
   footer .content a[href] {

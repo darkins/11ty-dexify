@@ -1,6 +1,6 @@
 /* Header */
 header {
-	padding: 1em 0;
+	padding: 1em;
 }
 
 header .container {
@@ -15,7 +15,7 @@ header ul {
     padding: 0;
 }
 .navbar {
-    background: #ffffff;
+    background: white;
     height: 80px;
     -webkit-box-shadow: 0 20px 50px 0 rgb(0 0 0 / 5%);
     box-shadow: 0 20px 50px 0 rgb(0 0 0 / 5%);
@@ -228,7 +228,7 @@ header ul {
       height: 100%;
       max-height: initial;
       overflow-y: auto;
-      width: 80%;
+      width: 100%;
       top: 75px;
       left: 0;
       background: #fcfcfc;
