@@ -288,20 +288,7 @@ header ul {
     }
   }
 
-  @media screen and (max-width: 40em) {
-    .navbar .logo {
-      font-size: 0.695rem;
-    }
-    .hero .container h1 {
-      font-size: 1rem;
-    }
-    .hero .btn {
-      padding: 1rem;
-      font-size: 0.695rem;
-    }
-  }
-
-  @media screen and (max-width: 30em) {
+  @media screen and (max-width: 35em) {
     html {
       font-size: var(--fs-sm);
     }
@@ -310,6 +297,13 @@ header ul {
     }
     .hero .container div:nth-of-type(2) {
       display: none;
+    }
+    .hero .container h1 {
+      font-size: 1rem;
+    }
+    .hero .btn {
+      padding: 1rem;
+      font-size: 0.695rem;
     }
   }
   
