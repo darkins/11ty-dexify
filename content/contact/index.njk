@@ -10,5 +10,24 @@ section: content
 <section class="page">
 	<div class="container">
         {% renderFile "./content/contact/contact.md" %}
-  </div>
+		<form class="contact-form" name="contact" action="https://formsubmit.co/info@citizenassembly.ie/" method="POST">
+        <!-- Honeypot -->
+        <input type="text" name="_honey" style="display:none;">
+        <!-- Disable Captcha -->
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_subject" value="New message from Fingal Monuments contact form">
+        <input type="hidden" name="_next" value="https://ticap.netlify.app/content/contact/success.md">
+        <div class="flex">
+            <input type="text" name="First&nbsp;Name" id="firstName" placeholder="First Name" required>
+            <input type="text" name="Last&nbsp;Name" id="lastName" placeholder="Last Name" required>
+        </div>
+        <div class="flex">
+            <input type="email" name="Email" id="emailInfo" placeholder="Enter your email" required>
+        </div>
+        <div class="flex">
+            <textarea name="Message" id="message" cols="30" rows="7" placeholder="Enter your message" required></textarea>
+        </div>
+        <button class="btn btn--primary" type="submit" name="submit">Send Message</button>
+    </form>
+	</div>
 </section>
