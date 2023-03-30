@@ -28,11 +28,22 @@ header ul {
   }
   
   .navbar .logo {
+    display: flex;
+    align-items: center;
     text-decoration: none;
     color: #122f48;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 1rem;
+  }
+
+  .navbar .logo img {
+    width: 40px;
+  }
+
+  .navbar .logo span {
+    display: inline-block;
+    padding-left: 0.5rem;
   }
   
   /* nav menu button */
@@ -304,6 +315,12 @@ header ul {
     .hero .btn {
       padding: 1rem;
       font-size: 0.695rem;
+    }
+  }
+
+  @media screen and (max-width: 30em) {
+    header .container {
+      padding: 0 1rem;
     }
   }
   
