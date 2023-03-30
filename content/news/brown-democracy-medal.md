@@ -5,7 +5,7 @@ permalink: ./content/news/brown-democracy-medal.md
 ---
 # The Irish Citizens' Assembly Project to receive 2019 Brown Democracy Medal
 
-![We the citizens](/img/wtc-logo.png "We the citizens")
+![We the citizens](/img/news_banner.jpg "We the citizens")
 
 UNIVERSITY PARK, Pa. — This year’s Brown Democracy Medal recognizes The Irish Citizens’ Assembly Project, which has transformed Irish politics in the past decade. This unique project, which started in 2011, led to a series of significant policy decisions, including successful referenda on abortion and marriage equality.
 
