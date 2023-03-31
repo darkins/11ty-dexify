@@ -29,8 +29,7 @@
 	background: linear-gradient(-45deg, #27a9b0, #673ab7);
     background-size: 100% 200%;
     color: #000000;
-    height: 500px;
-    min-height: 50vh;
+    padding: 3rem 0 2rem;
 }
 
 .hero .container {

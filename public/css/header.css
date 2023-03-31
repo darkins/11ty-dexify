@@ -235,7 +235,7 @@ header ul {
       display: block;
       transform: translateX(-300vh);
       transition: 0.3s ease-out;
-      padding-bottom: 100px;
+      padding: 0 1.5rem 20rem;
     }
   
     .menu-items.open {
