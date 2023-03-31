@@ -233,7 +233,7 @@ header ul {
       left: 0;
       background: #fcfcfc;
       display: block;
-      transform: translateX(-100vh);
+      transform: translateX(-300vh);
       transition: 0.3s ease-out;
       padding-bottom: 100px;
     }
