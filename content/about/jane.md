@@ -7,6 +7,8 @@ permalink: ./content/about/jane.md
 
 ### Director of the Institute for Future Media and Journalism
 
+![Jane Suiter](/img/jane.jpg "Phot of Dr Jane Suiter")
+
 Dr Suiter is Director of the Institute for Future Media and Journalism (FuJo) Future Media and Journalism at DCU and an Associate Professor in the School of Communications at Dublin City University. Jane's expertise lies mainly in the area of the public sphere; and in particular participation and political engagement; including direct democracy and other modes of engaging the public in decision-making processes; such as citizens’ assemblies and journalism. Her research is comparative: besides Ireland, her recent projects have included all European democracies as well as most of the OECD.
 
 She is co-PI on the Irish Citizen Assembly (2016-2018) and on the Academic Support Group for the Irish Constitutional Convention (2012-2014) and a founder member of We the Citizens (2011), Ireland’s first deliberative experiment. She is currently PI of a Marie Curie ETN JOLT on harnessing technology for journalism, PI of PROVENANCE a H2020 project tackling disinformation in the social sphere and PI of the Reuters Digital News Report (Ireland).
