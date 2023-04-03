@@ -9,12 +9,14 @@ section: content
 </section>
 <section class="page">
 	<div class="container">
-    <div class="david">
-      {% renderFile "./content/about/david.md" %}
+    <div class="david flex-col">
+      <div class="content">{% renderFile "./content/about/david.md" %}</div>
+	  <div class="photo"><img src="/img/david.jpg" width="322" height="550" alt="Photo of David Farrell" title="Photo of David Farrell" /></div>
     </div>
 
-    <div class="jane">
-      {% renderFile "./content/about/jane.md" %}
+    <div class="jane flex-col">
+	  <div class="photo"><img src="/img/jane.jpg" width="322" height="550" alt="Photo of Jane Suiter" title="Photo of Jane Suiter" /></div>
+	  <div class="content">{% renderFile "./content/about/jane.md" %}</div>
     </div>
   </div>
 </section>

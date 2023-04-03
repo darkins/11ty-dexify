@@ -7,8 +7,6 @@ permalink: ./content/about/david.md
 
 ### University College Dublin
 
-![David Farrell](/img/david.jpg "Photo of David")
-
 Professor Farrell was appointed to the Chair of Politics at University College Dublin in 2009, having returned to Ireland after two decades working at the University of Manchester (where he was Head of Social Sciences). He is currently Head of Politics and International Relations at UCD.
 
 In 2013 he was elected a Member of the Royal Irish Academy. He has held visiting positions at the Australian National University, Harvard, Mannheim, and the University of California Irvine. A specialist in the study of representation, elections and parties, he has published 19 books and more than 100 articles and book chapters.

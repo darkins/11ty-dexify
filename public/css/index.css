@@ -183,10 +183,6 @@ html {
 	padding: 0 2rem;
 }
 
-.page {
-	padding: 4rem 0;
-}
-
 .page h2 {
 	text-transform: uppercase;
 	margin: 2rem 0 1rem;
@@ -225,7 +221,7 @@ html {
 }
 
 section {
-	padding: 3rem 0;	
+	padding: 2rem 0;	
 }
 
 /* Buttons */
@@ -425,10 +421,23 @@ table th {
 }
 
 /* Helper classes */
-.flex-wrap {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 2rem;
+.flex-col {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.flex-col div.content {
+	flex-basis: 80%;
+}
+
+.flex-col div.photo {
+	flex-basis: 20%;
+	padding-top: 2rem;
+}
+
+.flex-col div.photo img {
+	border-radius: 1rem;
 }
 
 /* Overrides */
@@ -441,6 +450,9 @@ table th {
 		width: 600px !important;
 		height: 400px !important;
 		padding-top: 0 !important;
+	}
+	section {
+		padding: 4rem 0;	
 	}
 	.page a {
 		text-decoration: none;
