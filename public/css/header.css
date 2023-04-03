@@ -130,11 +130,11 @@ header ul {
   }
 
   .dropdown-menu li:hover {
-    background-color: #e9ecef;
+    background-color: var(--color-bg2);
   }
 
   .dropdown-menu a.menu-item {
-    font-size: 12px;
+    font-size: var(--fs-xs); /* 10px */
   }
   .navbar .dropdown-menu {
     left: unset;
@@ -148,7 +148,7 @@ header ul {
     justify-content: space-between;
     width: 100%;
     padding: 0.5rem 1.5rem;
-    font-size: 14px;
+    font-size: var(--fs-sm); /* 12px */
     text-transform: uppercase;
   }
   .navbar .menu-item:hover {
@@ -249,7 +249,6 @@ header ul {
     .menu-items li a {
       padding: 10px 1rem;
       display: block;
-      font-size: 18px;
     }
   
     .menu-item.first-item {

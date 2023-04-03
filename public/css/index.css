@@ -6,15 +6,18 @@
 
 /* Font Sizes */
 :root {
-	--fs-xs: 0.625rem;  /* 10px */
-	--fs-sm: 0.75rem;   /* 12px */
-	--fs-reg: 0.875rem; /* 14px */
-	--fs-base: 1rem;    /* 16px, base */
-	--fs-md: 1.25rem;   /* 20px */
-	--fs-lg: 1.5rem;    /* 24px */
-	--fs-xl: 1.75rem;   /* 28px */
-	--fs-xxl: 2rem;     /* 32px */
-	--fs-xxxl: 2.25rem; /* 36px */
+	--fs-xs: 0.625rem;       /* 10px */
+	--fs-eleven: 0.6875em;   /* 11px */
+	--fs-sm: 0.75rem;        /* 12px */
+	--fs-thirteen: 0.8125em; /* 13px */
+	--fs-reg: 0.875rem;      /* 14px */
+	--fs-base: 1rem;         /* 16px, base */
+	--fs-eighteen: 1.125em;  /* 18px */
+	--fs-md: 1.25rem;        /* 20px */
+	--fs-lg: 1.5rem;         /* 24px */
+	--fs-xl: 1.75rem;        /* 28px */
+	--fs-xxl: 2rem;          /* 32px */
+	--fs-xxxl: 2.25rem;      /* 36px */
 }
 
 /* Theme colors */
