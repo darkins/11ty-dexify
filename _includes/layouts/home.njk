@@ -20,16 +20,19 @@ layout: layouts/base.njk
 
 	<section class="first">
 		<div class="container">
-			<div class="page">
-				{% renderFile "./content/home/icap.md" %}
+			<div class="page flex-col">
+				<div class="content">{% renderFile "./content/home/icap.md" %}</div>
+	  			<div class="photo"><img src="/img/farrell_wtc.jpg" width="750" height="525" alt="Photo of David Farrell at We the Citizens Conference" title="Photo of David Farrell at We the Citizens Conference" /></div>
 			</div>
 		</div>
 	</section>
 
 	<section>
 		<div class="container">
-			<div class="page">
-				{% renderFile "./content/home/who-we-are.md" %}
+			<div class="page flex-col">
+	  			<div class="photo"><img src="/img/group.jpg" width="750" height="468" alt="Group Photo at Ideas Lab" title="Group Photo at Ideas Lab" /></div>
+				<div class="content">{% renderFile "./content/home/who-we-are.md" %}</div>
+				
 			</div>
 		</div>
 	</section>
