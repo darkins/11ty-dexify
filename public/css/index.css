@@ -417,18 +417,17 @@ table th {
 
 /* Helper classes */
 .flex-col {
-  display: flex;
-  justify-content: space-between;
-  gap: 3rem;
+  display: block;
 }
 
 .flex-col div.content {
-	flex-basis: 70%;
+	flex-basis: none;
 }
 
 .flex-col div.photo {
-	flex-basis: 30%;
-	padding-top: 5rem;
+	flex-basis: none;
+	padding-top: 0;
+	padding-bottom: 2rem;
 }
 
 .flex-col div.photo img {
@@ -459,4 +458,21 @@ table th {
 		color: var(--color-primary);
 		border-bottom: 0 none;
 	}
+}
+
+@media screen and (min-width: 30em) {
+	.flex-col {
+		display: flex;
+		justify-content: space-between;
+		gap: 3rem;
+	  }
+	  
+	  .flex-col div.content {
+		  flex-basis: 70%;
+	  }
+	  
+	  .flex-col div.photo {
+		  flex-basis: 30%;
+		  padding-top: 5rem;
+	  }
 }

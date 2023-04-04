@@ -15,6 +15,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy({
 		"./public/": "/"
 	});
+	eleventyConfig.addPassthroughCopy({ "./public/favicon": "/" });
 	// Netlify admin
 	eleventyConfig.addPassthroughCopy("admin");
 
