@@ -34,7 +34,7 @@ header ul {
     color: #122f48;
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: var(--fs-reg);
   }
 
   .navbar .logo img {
@@ -148,10 +148,10 @@ header ul {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 0.5rem 1.5rem;
-    font-size: var(--fs-thirteen); /* 12px */
+    padding: 0.7rem 1.5rem;
+    font-size: var(--fs-sm); /* 10px */
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 500;
   }
   .navbar .menu-item:hover {
     color: black;
@@ -185,6 +185,9 @@ header ul {
   /* Responsive style */
 
   @media screen and (min-width: 60em) {
+    .dropdown-menu a.menu-item {
+      font-size: var(--fs-xs); /* 10px */
+    }
     .navbar .dropdown.about ul {
       width: 200px;
     }
