@@ -38,10 +38,12 @@ layout: layouts/base.njk
 	</section>
 
 	<section class="last">
-		<div class="container flex-wrap">
+		<div class="container flex-col">
 			<div class="page">{% renderFile "./content/home/our-work.md" %}</div>
 			<div class="page">
 				<h1>Our News</h1>
+				<!-- {% set postslist = collections.posts %}
+				{% include "postslist.njk" %} -->
 				<p>Show part of the post here with a link to the <a href="/news/">full article</a></p>
 			</div>
 		</div>
