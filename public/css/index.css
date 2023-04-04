@@ -188,7 +188,7 @@ html {
 
 .page h2 {
 	text-transform: uppercase;
-	margin: 2rem 0 1rem;
+	margin: 2rem 0 0.2rem;
 }
 
 .page h3 {
@@ -428,7 +428,7 @@ table th {
 
 .flex-col div.photo {
 	flex-basis: 30%;
-	padding-top: 2rem;
+	padding-top: 5rem;
 }
 
 .flex-col div.photo img {
