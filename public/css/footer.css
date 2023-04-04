@@ -21,9 +21,6 @@ footer .content a[href] {
 footer .content a[href]:hover {
   color: white;
 }
-footer .content a[href]:first-child {
-  padding-top: 0;
-}
 footer .content .box a[href]:last-child {
   border-bottom: 0 none;
 }
@@ -102,24 +99,39 @@ footer .content .right input[type="submit"] {
   color:  var(--color-primary);
 }
 
-footer .content .phone i, 
-footer .content .email i {
-  padding-right: 0.5rem;
-}
 footer .content .box .media-icons {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-
 }
+
+footer .content .box .contact-icons svg {
+  margin-right: 0.5rem;
+}
+
+footer .content .box .media-icons svg, 
+footer .content .box .contact-icons svg{
+  fill: var(--color-gray-50);
+  opacity: 0.7;
+  transition: opacity ease-in-out 200ms;
+}
+
+footer .content .box .media-icons svg:hover, 
+footer .content .box .contact-icons svg:hover {
+  opacity: 1;
+}
+
 footer .content .box .media-icons a {
   font-size: var(--fs-base);
   height: 24px;
   width: 24px;
   margin: 24px 5px 0 0;
+  border-bottom: 0 none;
+  text-decoration: none;
+  padding: 0.5rem 0.7rem;
 }
 footer .content .box .media-icons a:hover {
   border-bottom: 0 none;
+  text-decoration: none;
 }
 footer .bottom{
   width: 100%;
@@ -139,8 +151,7 @@ footer .bottom a[href]:visited {
   padding-bottom: 0.2rem;
   border-bottom: 1px solid white;
 }
-footer .bottom p a[href]:hover, 
-footer a[href]:hover {
+footer .bottom p a[href]:hover {
   color: white;
   border-bottom: 0 none;
 }
