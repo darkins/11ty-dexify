@@ -227,6 +227,10 @@ section {
 	padding: 2rem 0;	
 }
 
+section.grey {
+	background-color: var(--color-bg2);
+}
+
 /* Buttons */
 .btn {
 	pointer-events: auto;

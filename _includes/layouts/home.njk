@@ -29,19 +29,30 @@ layout: layouts/base.njk
 		</div>
 	</section>
 
-	<section>
+	<section class="grey">
 		<div class="container">
 			<div class="page flex-col">
 	  			<div class="photo"><img src="/img/group.jpg" width="750" height="468" alt="Group Photo at Ideas Lab" title="Group Photo at Ideas Lab" /></div>
-				<div class="content">{% renderFile "./content/home/who-we-are.md" %}</div>
-				
+				<div class="content">{% renderFile "./content/home/who-we-are.md" %}</div>				
 			</div>
 		</div>
 	</section>
 
-	<section class="last">
-		<div class="container flex-col">
-			<div class="page">{% renderFile "./content/home/our-work.md" %}</div>
+	<section>
+		<div class="container centered">
+			<div class="page">
+				<h1>Our Work</h1>
+				<div class="box-container">
+					<div class="box"><a href="/work/#wtc" aria-label="We the citizens" class="box-link"><img src="img/wtc-logo.svg" width="600" height="144" alt="We the citizens" /><!-- <p>We the Citizens</p> --></a></div>
+					<div class="box"><a href="/work/#convention" aria-label="Convention on the constitution" class="box-link"><img src="img/constitution.png" width="600" height="150" alt="Convention on the constitution" /><!-- <p>Convention on the constitution</p> --></a></div>
+					<div class="box"><a href="/work/#ica1" aria-label="Irish Citizens' Assembly" class="box-link"><img src="img/ca-logo.png" width="600" height="108" alt="Citizens Assembly" /><!-- <p>Irish Citizens' Assembly</p> --></a></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="last grey">
+		<div class="container">
 			<div class="page">
 				<h1>Our News</h1>
 				<!-- {% set postslist = collections.posts %}

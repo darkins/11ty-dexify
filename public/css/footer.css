@@ -114,26 +114,12 @@ footer .content .box .media-icons {
 }
 footer .content .box .media-icons a {
   font-size: var(--fs-base);
-  height: 40px;
-  width: 40px;    
-  border-radius: 5px;
-  border: 2px solid rgba(255,255,255,0.4);
-  margin: 30px 5px 0 0;
-  transition: all 0.3s ease;
+  height: 24px;
+  width: 24px;
+  margin: 24px 5px 0 0;
 }
-footer .content .box .media-icons a:last-child {
-  border-bottom: 2px solid rgba(255,255,255,0.4);
-}
-footer .content .box .media-icons a:hover{
-  border-color: white;
-}
-footer .content .box .media-icons a i {
-  line-height: 37px;
-  width: 100%;
-  text-align: center;
-}
-footer .content .box .media-icons a i.fa-linkedin-in {
-  line-height: 0;
+footer .content .box .media-icons a:hover {
+  border-bottom: 0 none;
 }
 footer .bottom{
   width: 100%;
@@ -211,15 +197,6 @@ footer a[href]{
   
   footer .content h2 a[href]:hover {  
     color: white;
-  }
-  footer .content .box .media-icons a {
-    border-color: #222;
-  }
-  footer .content .box .media-icons a:last-child {
-    border-color: #222;
-  }
-  footer .content .box .media-icons a:hover {
-    border-color: var(--color-primary);
   }
   footer .bottom {
     border-top: 1px solid rgba(255,255,255,0.1);
