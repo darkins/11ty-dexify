@@ -438,7 +438,21 @@ table th {
 	border-radius: 1rem;
 }
 
+.news-banner {
+	padding-bottom: 1rem;
+}
+
 /* Overrides */
+.page h2.show {
+	display: block !important;
+	font-weight: 300;
+	margin: 0.5rem 0;
+}
+
+.page p.press {
+	padding: 0;
+}
+
 .eleventy-plugin-youtube-embed {
 	margin-bottom: 1rem;
 }
