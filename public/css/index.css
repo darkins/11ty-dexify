@@ -1,7 +1,7 @@
 /* Defaults */
 :root {
 	--font-family: Century Gothic, 'CenturyGothic', AppleGothic, sans-serif, -apple-system, system-ui;
-	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+	--ff-body: 'Montserrat', sans-serif, -apple-system, system-ui;
 }
 
 /* Font Sizes */
@@ -281,6 +281,11 @@ section.grey {
 
 section p {	
 	line-height: 1.7;
+	font-family: var(--ff-body);
+}
+
+h1 {
+	font-family: var(--ff-body);
 }
 
 section.banner {

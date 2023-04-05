@@ -1,5 +1,5 @@
 module.exports = {
-	"title": "Citizens' Assembly Project",
+	"title": "Irish Citizens' Assembly Project",
 	"url": "https://dexark.ie",
 	"language": "en",
 	"description": "This is my 11ty and Netlify starter project.",

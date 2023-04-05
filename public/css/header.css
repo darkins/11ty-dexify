@@ -159,6 +159,12 @@ header ul {
   
   .menu-item.first-item {
     padding: 1.5rem 1rem;
+    color: black;
+    transition: color ease-in-out 400ms;
+  }
+
+  .menu-item.first-item:hover {
+    color: var(--color-tertiary);
   }
   
   .navbar .dropdown:hover .dropdown-menu {
