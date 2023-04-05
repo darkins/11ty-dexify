@@ -16,7 +16,7 @@ footer .content a[href] {
   padding: 0.5em 0;
   border-bottom: 1px solid rgba(255,255,255,0.2);
   width: 100%;
-  font-size: var(--fs-reg);
+  font-size: var(--fs-thirteen);
 }
 footer .content a[href]:hover {
   color: white;
