@@ -48,9 +48,14 @@ collections:
   # News
   - label: "News"
     name: "news"
-    folder: "content/news"
-    create: false
+    folder: "content/blog"
+    create: true    
+    slug: "{{slug}}"
     fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Author", name: "author", widget: "string", default: "Anonymous" }
+      - { label: "Summary", name: "summary", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
 
   # Contact

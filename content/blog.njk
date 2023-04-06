@@ -1,11 +1,14 @@
 ---
-layout: layouts/home.njk
-eleventyNavigation:
-  key: Archive
-  order: 2
+layout: layouts/base.njk
 ---
-<div class="container">
-  <h1>Archive</h1>
-  {% set postslist = collections.posts %}
+<section class="banner" id="press">
+	<div class="container">
+		<h1>News</h1>
+	</div>
+</section>
+<section class="page">
+	<div class="container">
+      {% set postslist = collections.posts %}
   {% include "postslist.njk" %}
-</div>
+  </div>
+</section>

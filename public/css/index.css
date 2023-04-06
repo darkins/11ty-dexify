@@ -366,12 +366,10 @@ table th {
 	padding-left: 1.5rem;
 }
 .postlist-item {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: baseline;
-	counter-increment: start-from -1;
 	margin-bottom: 1em;
+	border-bottom: 1px solid var(--color-gray-20);
 }
+
 .postlist-date,
 .postlist-item:before {
 	font-size: 0.8125em; /* 13px /16 */
@@ -380,15 +378,14 @@ table th {
 .postlist-date {
 	word-spacing: -0.5px;
 }
-.postlist-link {
+.page a.postlist-link {
 	font-size: 1.1875em; /* 19px /16 */
 	font-weight: 700;
 	flex-basis: calc(100% - 1.5rem);
-	padding-left: .25em;
-	padding-right: .5em;
 	text-underline-position: from-font;
 	text-underline-offset: 0;
-	text-decoration-thickness: 1px;
+	text-decoration: none;
+	border-bottom: 0 none;
 }
 .postlist-item-active .postlist-link {
 	font-weight: bold;

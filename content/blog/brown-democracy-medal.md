@@ -1,6 +1,6 @@
 ---
 title: The Irish Citizens' Assembly Project to receive 2019 Brown Democracy Medal
-description: This is a description for this post.
+summary: This year’s Brown Democracy Medal recognizes The Irish Citizens’ Assembly Project...
 date: 2023-03-22
 ---
 # The Irish Citizens' Assembly Project to receive 2019 Brown Democracy Medal
