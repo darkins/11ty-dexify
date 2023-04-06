@@ -181,6 +181,10 @@ html {
 	padding: 0 2rem;
 }
 
+.container.narrow {
+	max-width: 70em;
+}
+
 .page h2 {
 	text-transform: uppercase;
 	margin: 2rem 0 0.2rem;
