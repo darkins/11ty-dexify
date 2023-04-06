@@ -379,11 +379,8 @@ table th {
 	word-spacing: -0.5px;
 }
 .page a.postlist-link {
-	font-size: 1.1875em; /* 19px /16 */
+	font-size: var(--fs-xl);
 	font-weight: 700;
-	flex-basis: calc(100% - 1.5rem);
-	text-underline-position: from-font;
-	text-underline-offset: 0;
 	text-decoration: none;
 	border-bottom: 0 none;
 }
