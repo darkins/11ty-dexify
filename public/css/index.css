@@ -447,7 +447,40 @@ table th {
 	padding-bottom: 1rem;
 }
 
+/* Media Icons */
+
+.media-icons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: var(--fs-reg);
+}
+  
+.media-icons svg {
+	fill: var(--color-secondary);
+	opacity: 0.7;
+	transition: opacity ease-in-out 200ms;
+}
+
+footer .media-icons svg {
+	fill: var(--color-gray-50);
+	margin-top: 1rem; 
+}
+
+.media-icons svg:hover {
+	opacity: 1;
+}
+
+
+
 /* Overrides */
+.page a.media-icons {
+	border-bottom: 0 none;
+	padding: 0;
+	color: var(--color-secondary);
+	margin: 1rem  0;
+}
+
 .page h2.show {
 	display: block !important;
 	font-weight: 300;
